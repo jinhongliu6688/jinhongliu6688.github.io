@@ -45,7 +45,10 @@
   --bs-dark: #212529;
   /* --bs-primary-rgb: 189, 93, 56; */
   /* --bs-ivan-rgb: 64, 111, 183; */
-  --bs-primary-rgb: 26, 43, 76;
+  /* a: rgb(26, 43, 76);
+  a: rgb(32, 53, 95);
+  a: rgb(32, 35, 95); */
+  --bs-primary-rgb: 32, 53, 95;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
