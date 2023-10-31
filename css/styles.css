@@ -10938,6 +10938,10 @@ p.lead {
   color: black;
 }
 
+.subheading a:hover {
+  color: orange; /* Change the color to your desired color on hover */
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
