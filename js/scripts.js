@@ -91,6 +91,18 @@ window.addEventListener('DOMContentLoaded', event => {
     };
     // type animation ends
 
+    // Initialize ScrollReveal
+    // ScrollReveal().reveal('.scroll-reveal', {
+    //     delay: 500,
+    // })
 
+    ScrollReveal().reveal('.scroll-reveal', {
+        delay: 400,
+        distance: '20px',
+        duration: 800,
+        easing: 'ease-in-out',
+        origin: 'right', // Change this to 'left', 'right', or 'top' as needed
+        // reset: true,
+    });
 
 });
