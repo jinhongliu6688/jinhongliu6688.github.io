@@ -152,9 +152,9 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Initialize ScrollReveal
     ScrollReveal().reveal('.scroll-reveal', {
-        delay: 400,
-        distance: '20px',
-        duration: 800,
+        delay: 500,
+        distance: '80px',
+        duration: 750,
         easing: 'ease-in-out',
         origin: 'right', // Change this to 'left', 'right', or 'top' as needed
         // reset: true,
