@@ -4360,10 +4360,6 @@ textarea.form-control-lg {
   }
 }
 
-.card-deck.d-flex.flex-row > .card {
-  margin-right: 20px; /* Adjust the margin to your desired spacing */
-}
-
 /* body {
   background-color:#ce3635;
   text-align: center;
@@ -11045,4 +11041,20 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+/* My CSS */
+.card-deck.d-flex.flex-row > .card {
+  margin-right: 25px; /* Adjust the margin to your desired spacing */
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-right-space {
+  margin-right: 30px;
 }
