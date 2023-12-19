@@ -11023,7 +11023,7 @@ section.resume-section {
   padding-right: 1rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  max-width: 75rem;
+  /* max-width: 75rem; */
 }
 section.resume-section .resume-section-content {
   width: 100%;
@@ -11057,4 +11057,25 @@ section.resume-section .resume-section-content {
 
 .logo-right-space {
   margin-right: 30px;
+}
+
+.wallpaper-begin {
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 100%;
+  z-index: -1;
+}
+
+.wallpaper-end {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: auto;
+  height: 105%;
+  z-index: -1;
+  object-fit: cover;
 }
