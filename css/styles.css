@@ -11087,6 +11087,12 @@ section.resume-section .resume-section-content {
   margin-bottom: 190px;
 }
 
+.thanks-section {
+  margin-left: 50px;
+  /* margin-bottom: 160px; */
+  margin-bottom: 110px;
+}
+
 /* .wolf-image {
   width: auto;
   height: 2000px;
