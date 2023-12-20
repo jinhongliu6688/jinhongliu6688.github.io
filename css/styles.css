@@ -11060,7 +11060,8 @@ section.resume-section .resume-section-content {
 }
 
 .wallpaper-begin {
-  opacity: 0.2;
+  opacity: 0.3;
+  /* opacity: 1; */
   position: absolute;
   left: 0;
   top: 0;
@@ -11079,3 +11080,19 @@ section.resume-section .resume-section-content {
   z-index: -1;
   object-fit: cover;
 }
+
+.about-section {
+  margin-left: 80px;
+  /* margin-bottom: 160px; */
+  margin-bottom: 190px;
+}
+
+/* .wolf-image {
+  width: auto;
+  height: 2000px;
+} */
+
+/* .snowman-image {
+  width: auto;
+  height: auto;
+} */
