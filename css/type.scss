@@ -1,12 +1,12 @@
 @import 'typed';
 
-.input-wrapper {
+.input-wrapper-begin {
   display: inline-block;
   // font-family: monospace;
   font-size: 125%;
   width: 50%;
   > input,
-  > .myplaceholder {
+  > .placeholder-begin {
     display: block;
     appearance: none;
     font-size: calc(1.325rem + 0.9vw);
@@ -15,7 +15,7 @@
     background-color: transparent;
     border: none;
   }
-  > .myplaceholder {
+  > .placeholder-begin {
     pointer-events: none;
     @include typed(
       "Software Engineer",

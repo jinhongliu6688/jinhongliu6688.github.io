@@ -1,11 +1,11 @@
 @charset "UTF-8";
-.input-wrapper {
+.input-wrapper-begin {
   display: inline-block;
   font-size: 125%;
   width: 50%;
 }
-.input-wrapper > input,
-.input-wrapper > .myplaceholder {
+.input-wrapper-begin > input,
+.input-wrapper-begin > .placeholder-begin {
   display: block;
   appearance: none;
   font-size: calc(1.325rem + 0.9vw);
@@ -14,10 +14,10 @@
   background-color: transparent;
   border: none;
 }
-.input-wrapper > .myplaceholder {
+.input-wrapper-begin > .placeholder-begin {
   pointer-events: none;
 }
-.input-wrapper > .myplaceholder::before {
+.input-wrapper-begin > .placeholder-begin::before {
   content: "​";
   content: "​"/"Software Engineer";
   alt: "Software Engineer";
@@ -25,7 +25,7 @@
   will-change: content;
   animation: typed-0 17.6s linear 1s infinite forwards;
 }
-.input-wrapper > .myplaceholder::after {
+.input-wrapper-begin > .placeholder-begin::after {
   content: "​";
   position: relative;
   display: inline-block;
@@ -841,7 +841,7 @@
     border-color: transparent;
   }
 }
-.input-wrapper > input:focus + .placeholder, .input-wrapper > input:active + .placeholder {
+.input-wrapper-begin > input:focus + .placeholder, .input-wrapper-begin > input:active + .placeholder {
   display: none;
 }
 
