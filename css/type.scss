@@ -1,0 +1,79 @@
+@import 'typed';
+
+.input-wrapper {
+  display: inline-block;
+  // font-family: monospace;
+  font-size: 125%;
+  width: 50%;
+  > input,
+  > .myplaceholder {
+    display: block;
+    appearance: none;
+    font-size: calc(1.325rem + 0.9vw);
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  > .myplaceholder {
+    pointer-events: none;
+    @include typed(
+      "Software Engineer",
+      "Full Stack Web Developer",
+      "Data Scientist",
+      "Machine Learning Engineer",
+      1.5,
+      (
+        caret-width: 2px,
+        caret-space: 2px
+      )
+    );
+  }
+  > input {
+    &:focus,
+    &:active {
+      + .placeholder {
+        display: none;
+      }
+    }
+  }
+}
+
+.input-wrapper-end {
+  display: inline-block;
+  // font-family: monospace;
+  font-size: 125%;
+  // width: 50%;
+  > input,
+  > .placeholder-end {
+    color: white;
+    display: block;
+    appearance: none;
+    font-size: calc(1.475rem + 2.7vw);
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+  }
+  > .placeholder-end {
+    pointer-events: none;
+    @include typed(
+      "Thank you for viewing my portfolio website!", 
+      "I would be more than happy to connect with you!", 
+      "Have a great day!",
+      1.5,
+      (
+        caret-width: 2px,
+        caret-space: 2px
+      )
+    );
+  }
+  > input {
+    &:focus,
+    &:active {
+      + .placeholder {
+        display: none;
+      }
+    }
+  }
+}

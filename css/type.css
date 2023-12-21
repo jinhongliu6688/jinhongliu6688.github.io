@@ -1,0 +1,1964 @@
+@charset "UTF-8";
+.input-wrapper {
+  display: inline-block;
+  font-size: 125%;
+  width: 50%;
+}
+.input-wrapper > input,
+.input-wrapper > .myplaceholder {
+  display: block;
+  appearance: none;
+  font-size: calc(1.325rem + 0.9vw);
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper > .myplaceholder {
+  pointer-events: none;
+}
+.input-wrapper > .myplaceholder::before {
+  content: "​";
+  content: "​"/"Software Engineer";
+  alt: "Software Engineer";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-0 17.6s linear 1s infinite forwards;
+}
+.input-wrapper > .myplaceholder::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-0-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-0 {
+  0%, 0.3777878788% {
+    content: "​S";
+    content: "​S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  0.3787878788%, 0.7565757576% {
+    content: "​So";
+    content: "​So"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  0.7575757576%, 1.1353636364% {
+    content: "​Sof";
+    content: "​Sof"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  1.1363636364%, 1.5141515152% {
+    content: "​Soft";
+    content: "​Soft"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  1.5151515152%, 1.8929393939% {
+    content: "​Softw";
+    content: "​Softw"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  1.8939393939%, 2.2717272727% {
+    content: "​Softwa";
+    content: "​Softwa"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  2.2727272727%, 2.6505151515% {
+    content: "​Softwar";
+    content: "​Softwar"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  2.6515151515%, 3.0293030303% {
+    content: "​Software";
+    content: "​Software"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  3.0303030303%, 3.4080909091% {
+    content: "​Software ";
+    content: "​Software "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  3.4090909091%, 3.7868787879% {
+    content: "​Software E";
+    content: "​Software E"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  3.7878787879%, 4.1656666667% {
+    content: "​Software En";
+    content: "​Software En"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  4.1666666667%, 4.5444545455% {
+    content: "​Software Eng";
+    content: "​Software Eng"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  4.5454545455%, 4.9232424242% {
+    content: "​Software Engi";
+    content: "​Software Engi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  4.9242424242%, 5.302030303% {
+    content: "​Software Engin";
+    content: "​Software Engin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  5.303030303%, 5.6808181818% {
+    content: "​Software Engine";
+    content: "​Software Engine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  5.6818181818%, 6.0596060606% {
+    content: "​Software Enginee";
+    content: "​Software Enginee"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  6.0606060606%, 14.3171818182% {
+    content: "​Software Engineer";
+    content: "​Software Engineer"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  14.3181818182%, 14.6202121212% {
+    content: "​Software Enginee";
+    content: "​Software Enginee"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  14.6212121212%, 14.9232424242% {
+    content: "​Software Engine";
+    content: "​Software Engine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  14.9242424242%, 15.2262727273% {
+    content: "​Software Engin";
+    content: "​Software Engin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  15.2272727273%, 15.5293030303% {
+    content: "​Software Engi";
+    content: "​Software Engi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  15.5303030303%, 15.8323333333% {
+    content: "​Software Eng";
+    content: "​Software Eng"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  15.8333333333%, 16.1353636364% {
+    content: "​Software En";
+    content: "​Software En"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  16.1363636364%, 16.4383939394% {
+    content: "​Software E";
+    content: "​Software E"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  16.4393939394%, 16.7414242424% {
+    content: "​Software ";
+    content: "​Software "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  16.7424242424%, 17.0444545455% {
+    content: "​Software";
+    content: "​Software"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  17.0454545455%, 17.3474848485% {
+    content: "​Softwar";
+    content: "​Softwar"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  17.3484848485%, 17.6505151515% {
+    content: "​Softwa";
+    content: "​Softwa"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  17.6515151515%, 17.9535454545% {
+    content: "​Softw";
+    content: "​Softw"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  17.9545454545%, 18.2565757576% {
+    content: "​Soft";
+    content: "​Soft"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  18.2575757576%, 18.5596060606% {
+    content: "​Sof";
+    content: "​Sof"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  18.5606060606%, 18.8626363636% {
+    content: "​So";
+    content: "​So"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  18.8636363636%, 19.1656666667% {
+    content: "​S";
+    content: "​S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  19.1666666667%, 22.9535454545% {
+    content: "​";
+    content: "​"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  22.9545454545%, 23.3323333333% {
+    content: "​F";
+    content: "​F"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  23.3333333333%, 23.7111212121% {
+    content: "​Fu";
+    content: "​Fu"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  23.7121212121%, 24.0899090909% {
+    content: "​Ful";
+    content: "​Ful"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  24.0909090909%, 24.4686969697% {
+    content: "​Full";
+    content: "​Full"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  24.4696969697%, 24.8474848485% {
+    content: "​Full ";
+    content: "​Full "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  24.8484848485%, 25.2262727273% {
+    content: "​Full S";
+    content: "​Full S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  25.2272727273%, 25.6050606061% {
+    content: "​Full St";
+    content: "​Full St"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  25.6060606061%, 25.9838484848% {
+    content: "​Full Sta";
+    content: "​Full Sta"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  25.9848484848%, 26.3626363636% {
+    content: "​Full Stac";
+    content: "​Full Stac"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  26.3636363636%, 26.7414242424% {
+    content: "​Full Stack";
+    content: "​Full Stack"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  26.7424242424%, 27.1202121212% {
+    content: "​Full Stack ";
+    content: "​Full Stack "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  27.1212121212%, 27.499% {
+    content: "​Full Stack W";
+    content: "​Full Stack W"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  27.5%, 27.8777878788% {
+    content: "​Full Stack We";
+    content: "​Full Stack We"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  27.8787878788%, 28.2565757576% {
+    content: "​Full Stack Web";
+    content: "​Full Stack Web"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  28.2575757576%, 28.6353636364% {
+    content: "​Full Stack Web ";
+    content: "​Full Stack Web "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  28.6363636364%, 29.0141515152% {
+    content: "​Full Stack Web D";
+    content: "​Full Stack Web D"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  29.0151515152%, 29.3929393939% {
+    content: "​Full Stack Web De";
+    content: "​Full Stack Web De"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  29.3939393939%, 29.7717272727% {
+    content: "​Full Stack Web Dev";
+    content: "​Full Stack Web Dev"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  29.7727272727%, 30.1505151515% {
+    content: "​Full Stack Web Deve";
+    content: "​Full Stack Web Deve"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  30.1515151515%, 30.5293030303% {
+    content: "​Full Stack Web Devel";
+    content: "​Full Stack Web Devel"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  30.5303030303%, 30.9080909091% {
+    content: "​Full Stack Web Develo";
+    content: "​Full Stack Web Develo"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  30.9090909091%, 31.2868787879% {
+    content: "​Full Stack Web Develop";
+    content: "​Full Stack Web Develop"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  31.2878787879%, 31.6656666667% {
+    content: "​Full Stack Web Develope";
+    content: "​Full Stack Web Develope"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  31.6666666667%, 39.9232424242% {
+    content: "​Full Stack Web Developer";
+    content: "​Full Stack Web Developer"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  39.9242424242%, 40.2262727273% {
+    content: "​Full Stack Web Develope";
+    content: "​Full Stack Web Develope"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  40.2272727273%, 40.5293030303% {
+    content: "​Full Stack Web Develop";
+    content: "​Full Stack Web Develop"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  40.5303030303%, 40.8323333333% {
+    content: "​Full Stack Web Develo";
+    content: "​Full Stack Web Develo"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  40.8333333333%, 41.1353636364% {
+    content: "​Full Stack Web Devel";
+    content: "​Full Stack Web Devel"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  41.1363636364%, 41.4383939394% {
+    content: "​Full Stack Web Deve";
+    content: "​Full Stack Web Deve"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  41.4393939394%, 41.7414242424% {
+    content: "​Full Stack Web Dev";
+    content: "​Full Stack Web Dev"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  41.7424242424%, 42.0444545455% {
+    content: "​Full Stack Web De";
+    content: "​Full Stack Web De"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  42.0454545455%, 42.3474848485% {
+    content: "​Full Stack Web D";
+    content: "​Full Stack Web D"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  42.3484848485%, 42.6505151515% {
+    content: "​Full Stack Web ";
+    content: "​Full Stack Web "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  42.6515151515%, 42.9535454545% {
+    content: "​Full Stack Web";
+    content: "​Full Stack Web"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  42.9545454545%, 43.2565757576% {
+    content: "​Full Stack We";
+    content: "​Full Stack We"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  43.2575757576%, 43.5596060606% {
+    content: "​Full Stack W";
+    content: "​Full Stack W"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  43.5606060606%, 43.8626363636% {
+    content: "​Full Stack ";
+    content: "​Full Stack "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  43.8636363636%, 44.1656666667% {
+    content: "​Full Stack";
+    content: "​Full Stack"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  44.1666666667%, 44.4686969697% {
+    content: "​Full Stac";
+    content: "​Full Stac"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  44.4696969697%, 44.7717272727% {
+    content: "​Full Sta";
+    content: "​Full Sta"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  44.7727272727%, 45.0747575758% {
+    content: "​Full St";
+    content: "​Full St"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  45.0757575758%, 45.3777878788% {
+    content: "​Full S";
+    content: "​Full S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  45.3787878788%, 45.6808181818% {
+    content: "​Full ";
+    content: "​Full "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  45.6818181818%, 45.9838484848% {
+    content: "​Full";
+    content: "​Full"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  45.9848484848%, 46.2868787879% {
+    content: "​Ful";
+    content: "​Ful"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  46.2878787879%, 46.5899090909% {
+    content: "​Fu";
+    content: "​Fu"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  46.5909090909%, 46.8929393939% {
+    content: "​F";
+    content: "​F"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  46.8939393939%, 50.6808181818% {
+    content: "​";
+    content: "​"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  50.6818181818%, 51.0596060606% {
+    content: "​D";
+    content: "​D"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  51.0606060606%, 51.4383939394% {
+    content: "​Da";
+    content: "​Da"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  51.4393939394%, 51.8171818182% {
+    content: "​Dat";
+    content: "​Dat"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  51.8181818182%, 52.195969697% {
+    content: "​Data";
+    content: "​Data"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  52.196969697%, 52.5747575758% {
+    content: "​Data ";
+    content: "​Data "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  52.5757575758%, 52.9535454545% {
+    content: "​Data S";
+    content: "​Data S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  52.9545454545%, 53.3323333333% {
+    content: "​Data Sc";
+    content: "​Data Sc"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  53.3333333333%, 53.7111212121% {
+    content: "​Data Sci";
+    content: "​Data Sci"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  53.7121212121%, 54.0899090909% {
+    content: "​Data Scie";
+    content: "​Data Scie"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  54.0909090909%, 54.4686969697% {
+    content: "​Data Scien";
+    content: "​Data Scien"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  54.4696969697%, 54.8474848485% {
+    content: "​Data Scient";
+    content: "​Data Scient"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  54.8484848485%, 55.2262727273% {
+    content: "​Data Scienti";
+    content: "​Data Scienti"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  55.2272727273%, 55.6050606061% {
+    content: "​Data Scientis";
+    content: "​Data Scientis"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  55.6060606061%, 63.8626363636% {
+    content: "​Data Scientist";
+    content: "​Data Scientist"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  63.8636363636%, 64.1656666667% {
+    content: "​Data Scientis";
+    content: "​Data Scientis"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  64.1666666667%, 64.4686969697% {
+    content: "​Data Scienti";
+    content: "​Data Scienti"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  64.4696969697%, 64.7717272727% {
+    content: "​Data Scient";
+    content: "​Data Scient"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  64.7727272727%, 65.0747575758% {
+    content: "​Data Scien";
+    content: "​Data Scien"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  65.0757575758%, 65.3777878788% {
+    content: "​Data Scie";
+    content: "​Data Scie"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  65.3787878788%, 65.6808181818% {
+    content: "​Data Sci";
+    content: "​Data Sci"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  65.6818181818%, 65.9838484848% {
+    content: "​Data Sc";
+    content: "​Data Sc"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  65.9848484848%, 66.2868787879% {
+    content: "​Data S";
+    content: "​Data S"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  66.2878787879%, 66.5899090909% {
+    content: "​Data ";
+    content: "​Data "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  66.5909090909%, 66.8929393939% {
+    content: "​Data";
+    content: "​Data"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  66.8939393939%, 67.195969697% {
+    content: "​Dat";
+    content: "​Dat"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  67.196969697%, 67.499% {
+    content: "​Da";
+    content: "​Da"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  67.5%, 67.802030303% {
+    content: "​D";
+    content: "​D"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  67.803030303%, 71.5899090909% {
+    content: "​";
+    content: "​"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  71.5909090909%, 71.9686969697% {
+    content: "​M";
+    content: "​M"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  71.9696969697%, 72.3474848485% {
+    content: "​Ma";
+    content: "​Ma"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  72.3484848485%, 72.7262727273% {
+    content: "​Mac";
+    content: "​Mac"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  72.7272727273%, 73.1050606061% {
+    content: "​Mach";
+    content: "​Mach"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  73.1060606061%, 73.4838484848% {
+    content: "​Machi";
+    content: "​Machi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  73.4848484848%, 73.8626363636% {
+    content: "​Machin";
+    content: "​Machin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  73.8636363636%, 74.2414242424% {
+    content: "​Machine";
+    content: "​Machine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  74.2424242424%, 74.6202121212% {
+    content: "​Machine ";
+    content: "​Machine "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  74.6212121212%, 74.999% {
+    content: "​Machine L";
+    content: "​Machine L"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  75%, 75.3777878788% {
+    content: "​Machine Le";
+    content: "​Machine Le"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  75.3787878788%, 75.7565757576% {
+    content: "​Machine Lea";
+    content: "​Machine Lea"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  75.7575757576%, 76.1353636364% {
+    content: "​Machine Lear";
+    content: "​Machine Lear"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  76.1363636364%, 76.5141515152% {
+    content: "​Machine Learn";
+    content: "​Machine Learn"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  76.5151515152%, 76.8929393939% {
+    content: "​Machine Learni";
+    content: "​Machine Learni"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  76.8939393939%, 77.2717272727% {
+    content: "​Machine Learnin";
+    content: "​Machine Learnin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  77.2727272727%, 77.6505151515% {
+    content: "​Machine Learning";
+    content: "​Machine Learning"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  77.6515151515%, 78.0293030303% {
+    content: "​Machine Learning ";
+    content: "​Machine Learning "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  78.0303030303%, 78.4080909091% {
+    content: "​Machine Learning E";
+    content: "​Machine Learning E"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  78.4090909091%, 78.7868787879% {
+    content: "​Machine Learning En";
+    content: "​Machine Learning En"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  78.7878787879%, 79.1656666667% {
+    content: "​Machine Learning Eng";
+    content: "​Machine Learning Eng"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  79.1666666667%, 79.5444545455% {
+    content: "​Machine Learning Engi";
+    content: "​Machine Learning Engi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  79.5454545455%, 79.9232424242% {
+    content: "​Machine Learning Engin";
+    content: "​Machine Learning Engin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  79.9242424242%, 80.302030303% {
+    content: "​Machine Learning Engine";
+    content: "​Machine Learning Engine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  80.303030303%, 80.6808181818% {
+    content: "​Machine Learning Enginee";
+    content: "​Machine Learning Enginee"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  80.6818181818%, 88.9383939394% {
+    content: "​Machine Learning Engineer";
+    content: "​Machine Learning Engineer"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  88.9393939394%, 89.2414242424% {
+    content: "​Machine Learning Enginee";
+    content: "​Machine Learning Enginee"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  89.2424242424%, 89.5444545455% {
+    content: "​Machine Learning Engine";
+    content: "​Machine Learning Engine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  89.5454545455%, 89.8474848485% {
+    content: "​Machine Learning Engin";
+    content: "​Machine Learning Engin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  89.8484848485%, 90.1505151515% {
+    content: "​Machine Learning Engi";
+    content: "​Machine Learning Engi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  90.1515151515%, 90.4535454545% {
+    content: "​Machine Learning Eng";
+    content: "​Machine Learning Eng"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  90.4545454545%, 90.7565757576% {
+    content: "​Machine Learning En";
+    content: "​Machine Learning En"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  90.7575757576%, 91.0596060606% {
+    content: "​Machine Learning E";
+    content: "​Machine Learning E"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  91.0606060606%, 91.3626363636% {
+    content: "​Machine Learning ";
+    content: "​Machine Learning "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  91.3636363636%, 91.6656666667% {
+    content: "​Machine Learning";
+    content: "​Machine Learning"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  91.6666666667%, 91.9686969697% {
+    content: "​Machine Learnin";
+    content: "​Machine Learnin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  91.9696969697%, 92.2717272727% {
+    content: "​Machine Learni";
+    content: "​Machine Learni"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  92.2727272727%, 92.5747575758% {
+    content: "​Machine Learn";
+    content: "​Machine Learn"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  92.5757575758%, 92.8777878788% {
+    content: "​Machine Lear";
+    content: "​Machine Lear"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  92.8787878788%, 93.1808181818% {
+    content: "​Machine Lea";
+    content: "​Machine Lea"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  93.1818181818%, 93.4838484848% {
+    content: "​Machine Le";
+    content: "​Machine Le"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  93.4848484848%, 93.7868787879% {
+    content: "​Machine L";
+    content: "​Machine L"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  93.7878787879%, 94.0899090909% {
+    content: "​Machine ";
+    content: "​Machine "/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  94.0909090909%, 94.3929393939% {
+    content: "​Machine";
+    content: "​Machine"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  94.3939393939%, 94.695969697% {
+    content: "​Machin";
+    content: "​Machin"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  94.696969697%, 94.999% {
+    content: "​Machi";
+    content: "​Machi"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  95%, 95.302030303% {
+    content: "​Mach";
+    content: "​Mach"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  95.303030303%, 95.6050606061% {
+    content: "​Mac";
+    content: "​Mac"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  95.6060606061%, 95.9080909091% {
+    content: "​Ma";
+    content: "​Ma"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  95.9090909091%, 96.2111212121% {
+    content: "​M";
+    content: "​M"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+  96.2121212121%, 100% {
+    content: "​";
+    content: "​"/"Software Engineer";
+    alt: "Software Engineer";
+  }
+}
+@keyframes typed-0-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper > input:focus + .placeholder, .input-wrapper > input:active + .placeholder {
+  display: none;
+}
+
+.input-wrapper-end {
+  display: inline-block;
+  font-size: 125%;
+}
+.input-wrapper-end > input,
+.input-wrapper-end > .placeholder-end {
+  color: white;
+  display: block;
+  appearance: none;
+  font-size: calc(1.475rem + 2.7vw);
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+}
+.input-wrapper-end > .placeholder-end {
+  pointer-events: none;
+}
+.input-wrapper-end > .placeholder-end::before {
+  content: "​";
+  content: "​"/"Thank you for viewing my portfolio website!";
+  alt: "Thank you for viewing my portfolio website!";
+  white-space: break-spaces;
+  will-change: content;
+  animation: typed-1 18.84s linear 1s infinite forwards;
+}
+.input-wrapper-end > .placeholder-end::after {
+  content: "​";
+  position: relative;
+  display: inline-block;
+  padding-right: 2px;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  animation: typed-1-caret 0.75s linear 1s infinite forwards;
+}
+@keyframes typed-1 {
+  0%, 0.3528570418% {
+    content: "​T";
+    content: "​T"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  0.3538570418%, 0.7067140835% {
+    content: "​Th";
+    content: "​Th"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  0.7077140835%, 1.0605711253% {
+    content: "​Tha";
+    content: "​Tha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  1.0615711253%, 1.414428167% {
+    content: "​Than";
+    content: "​Than"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  1.415428167%, 1.7682852088% {
+    content: "​Thank";
+    content: "​Thank"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  1.7692852088%, 2.1221422505% {
+    content: "​Thank ";
+    content: "​Thank "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  2.1231422505%, 2.4759992923% {
+    content: "​Thank y";
+    content: "​Thank y"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  2.4769992923%, 2.829856334% {
+    content: "​Thank yo";
+    content: "​Thank yo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  2.830856334%, 3.1837133758% {
+    content: "​Thank you";
+    content: "​Thank you"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  3.1847133758%, 3.5375704176% {
+    content: "​Thank you ";
+    content: "​Thank you "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  3.5385704176%, 3.8914274593% {
+    content: "​Thank you f";
+    content: "​Thank you f"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  3.8924274593%, 4.2452845011% {
+    content: "​Thank you fo";
+    content: "​Thank you fo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  4.2462845011%, 4.5991415428% {
+    content: "​Thank you for";
+    content: "​Thank you for"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  4.6001415428%, 4.9529985846% {
+    content: "​Thank you for ";
+    content: "​Thank you for "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  4.9539985846%, 5.3068556263% {
+    content: "​Thank you for v";
+    content: "​Thank you for v"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  5.3078556263%, 5.6607126681% {
+    content: "​Thank you for vi";
+    content: "​Thank you for vi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  5.6617126681%, 6.0145697098% {
+    content: "​Thank you for vie";
+    content: "​Thank you for vie"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  6.0155697098%, 6.3684267516% {
+    content: "​Thank you for view";
+    content: "​Thank you for view"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  6.3694267516%, 6.7222837933% {
+    content: "​Thank you for viewi";
+    content: "​Thank you for viewi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  6.7232837933%, 7.0761408351% {
+    content: "​Thank you for viewin";
+    content: "​Thank you for viewin"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  7.0771408351%, 7.4299978769% {
+    content: "​Thank you for viewing";
+    content: "​Thank you for viewing"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  7.4309978769%, 7.7838549186% {
+    content: "​Thank you for viewing ";
+    content: "​Thank you for viewing "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  7.7848549186%, 8.1377119604% {
+    content: "​Thank you for viewing m";
+    content: "​Thank you for viewing m"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  8.1387119604%, 8.4915690021% {
+    content: "​Thank you for viewing my";
+    content: "​Thank you for viewing my"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  8.4925690021%, 8.8454260439% {
+    content: "​Thank you for viewing my ";
+    content: "​Thank you for viewing my "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  8.8464260439%, 9.1992830856% {
+    content: "​Thank you for viewing my p";
+    content: "​Thank you for viewing my p"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  9.2002830856%, 9.5531401274% {
+    content: "​Thank you for viewing my po";
+    content: "​Thank you for viewing my po"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  9.5541401274%, 9.9069971691% {
+    content: "​Thank you for viewing my por";
+    content: "​Thank you for viewing my por"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  9.9079971691%, 10.2608542109% {
+    content: "​Thank you for viewing my port";
+    content: "​Thank you for viewing my port"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  10.2618542109%, 10.6147112527% {
+    content: "​Thank you for viewing my portf";
+    content: "​Thank you for viewing my portf"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  10.6157112527%, 10.9685682944% {
+    content: "​Thank you for viewing my portfo";
+    content: "​Thank you for viewing my portfo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  10.9695682944%, 11.3224253362% {
+    content: "​Thank you for viewing my portfol";
+    content: "​Thank you for viewing my portfol"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  11.3234253362%, 11.6762823779% {
+    content: "​Thank you for viewing my portfoli";
+    content: "​Thank you for viewing my portfoli"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  11.6772823779%, 12.0301394197% {
+    content: "​Thank you for viewing my portfolio";
+    content: "​Thank you for viewing my portfolio"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  12.0311394197%, 12.3839964614% {
+    content: "​Thank you for viewing my portfolio ";
+    content: "​Thank you for viewing my portfolio "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  12.3849964614%, 12.7378535032% {
+    content: "​Thank you for viewing my portfolio w";
+    content: "​Thank you for viewing my portfolio w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  12.7388535032%, 13.0917105449% {
+    content: "​Thank you for viewing my portfolio we";
+    content: "​Thank you for viewing my portfolio we"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  13.0927105449%, 13.4455675867% {
+    content: "​Thank you for viewing my portfolio web";
+    content: "​Thank you for viewing my portfolio web"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  13.4465675867%, 13.7994246285% {
+    content: "​Thank you for viewing my portfolio webs";
+    content: "​Thank you for viewing my portfolio webs"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  13.8004246285%, 14.1532816702% {
+    content: "​Thank you for viewing my portfolio websi";
+    content: "​Thank you for viewing my portfolio websi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  14.1542816702%, 14.507138712% {
+    content: "​Thank you for viewing my portfolio websit";
+    content: "​Thank you for viewing my portfolio websit"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  14.508138712%, 14.8609957537% {
+    content: "​Thank you for viewing my portfolio website";
+    content: "​Thank you for viewing my portfolio website"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  14.8619957537%, 22.575079264% {
+    content: "​Thank you for viewing my portfolio website!";
+    content: "​Thank you for viewing my portfolio website!"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  22.576079264%, 22.8581648974% {
+    content: "​Thank you for viewing my portfolio website";
+    content: "​Thank you for viewing my portfolio website"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  22.8591648974%, 23.1412505308% {
+    content: "​Thank you for viewing my portfolio websit";
+    content: "​Thank you for viewing my portfolio websit"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  23.1422505308%, 23.4243361642% {
+    content: "​Thank you for viewing my portfolio websi";
+    content: "​Thank you for viewing my portfolio websi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  23.4253361642%, 23.7074217976% {
+    content: "​Thank you for viewing my portfolio webs";
+    content: "​Thank you for viewing my portfolio webs"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  23.7084217976%, 23.990507431% {
+    content: "​Thank you for viewing my portfolio web";
+    content: "​Thank you for viewing my portfolio web"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  23.991507431%, 24.2735930644% {
+    content: "​Thank you for viewing my portfolio we";
+    content: "​Thank you for viewing my portfolio we"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  24.2745930644%, 24.5566786978% {
+    content: "​Thank you for viewing my portfolio w";
+    content: "​Thank you for viewing my portfolio w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  24.5576786978%, 24.8397643312% {
+    content: "​Thank you for viewing my portfolio ";
+    content: "​Thank you for viewing my portfolio "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  24.8407643312%, 25.1228499646% {
+    content: "​Thank you for viewing my portfolio";
+    content: "​Thank you for viewing my portfolio"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  25.1238499646%, 25.405935598% {
+    content: "​Thank you for viewing my portfoli";
+    content: "​Thank you for viewing my portfoli"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  25.406935598%, 25.6890212314% {
+    content: "​Thank you for viewing my portfol";
+    content: "​Thank you for viewing my portfol"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  25.6900212314%, 25.9721068648% {
+    content: "​Thank you for viewing my portfo";
+    content: "​Thank you for viewing my portfo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  25.9731068648%, 26.2551924982% {
+    content: "​Thank you for viewing my portf";
+    content: "​Thank you for viewing my portf"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  26.2561924982%, 26.5382781316% {
+    content: "​Thank you for viewing my port";
+    content: "​Thank you for viewing my port"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  26.5392781316%, 26.821363765% {
+    content: "​Thank you for viewing my por";
+    content: "​Thank you for viewing my por"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  26.822363765%, 27.1044493984% {
+    content: "​Thank you for viewing my po";
+    content: "​Thank you for viewing my po"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  27.1054493984%, 27.3875350318% {
+    content: "​Thank you for viewing my p";
+    content: "​Thank you for viewing my p"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  27.3885350318%, 27.6706206653% {
+    content: "​Thank you for viewing my ";
+    content: "​Thank you for viewing my "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  27.6716206653%, 27.9537062987% {
+    content: "​Thank you for viewing my";
+    content: "​Thank you for viewing my"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  27.9547062987%, 28.2367919321% {
+    content: "​Thank you for viewing m";
+    content: "​Thank you for viewing m"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  28.2377919321%, 28.5198775655% {
+    content: "​Thank you for viewing ";
+    content: "​Thank you for viewing "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  28.5208775655%, 28.8029631989% {
+    content: "​Thank you for viewing";
+    content: "​Thank you for viewing"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  28.8039631989%, 29.0860488323% {
+    content: "​Thank you for viewin";
+    content: "​Thank you for viewin"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  29.0870488323%, 29.3691344657% {
+    content: "​Thank you for viewi";
+    content: "​Thank you for viewi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  29.3701344657%, 29.6522200991% {
+    content: "​Thank you for view";
+    content: "​Thank you for view"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  29.6532200991%, 29.9353057325% {
+    content: "​Thank you for vie";
+    content: "​Thank you for vie"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  29.9363057325%, 30.2183913659% {
+    content: "​Thank you for vi";
+    content: "​Thank you for vi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  30.2193913659%, 30.5014769993% {
+    content: "​Thank you for v";
+    content: "​Thank you for v"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  30.5024769993%, 30.7845626327% {
+    content: "​Thank you for ";
+    content: "​Thank you for "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  30.7855626327%, 31.0676482661% {
+    content: "​Thank you for";
+    content: "​Thank you for"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  31.0686482661%, 31.3507338995% {
+    content: "​Thank you fo";
+    content: "​Thank you fo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  31.3517338995%, 31.6338195329% {
+    content: "​Thank you f";
+    content: "​Thank you f"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  31.6348195329%, 31.9169051663% {
+    content: "​Thank you ";
+    content: "​Thank you "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  31.9179051663%, 32.1999907997% {
+    content: "​Thank you";
+    content: "​Thank you"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  32.2009907997%, 32.4830764331% {
+    content: "​Thank yo";
+    content: "​Thank yo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  32.4840764331%, 32.7661620665% {
+    content: "​Thank y";
+    content: "​Thank y"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  32.7671620665%, 33.0492476999% {
+    content: "​Thank ";
+    content: "​Thank "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  33.0502476999%, 33.3323333333% {
+    content: "​Thank";
+    content: "​Thank"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  33.3333333333%, 33.6154189667% {
+    content: "​Than";
+    content: "​Than"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  33.6164189667%, 33.8985046001% {
+    content: "​Tha";
+    content: "​Tha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  33.8995046001%, 34.1815902335% {
+    content: "​Th";
+    content: "​Th"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  34.1825902335%, 34.4646758669% {
+    content: "​T";
+    content: "​T"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  34.4656758669%, 38.0032462845% {
+    content: "​";
+    content: "​"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  38.0042462845%, 38.3571033263% {
+    content: "​I";
+    content: "​I"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  38.3581033263%, 38.710960368% {
+    content: "​I ";
+    content: "​I "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  38.711960368%, 39.0648174098% {
+    content: "​I w";
+    content: "​I w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  39.0658174098%, 39.4186744515% {
+    content: "​I wo";
+    content: "​I wo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  39.4196744515%, 39.7725314933% {
+    content: "​I wou";
+    content: "​I wou"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  39.7735314933%, 40.126388535% {
+    content: "​I woul";
+    content: "​I woul"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  40.127388535%, 40.4802455768% {
+    content: "​I would";
+    content: "​I would"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  40.4812455768%, 40.8341026185% {
+    content: "​I would ";
+    content: "​I would "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  40.8351026185%, 41.1879596603% {
+    content: "​I would b";
+    content: "​I would b"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  41.1889596603%, 41.5418167021% {
+    content: "​I would be";
+    content: "​I would be"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  41.5428167021%, 41.8956737438% {
+    content: "​I would be ";
+    content: "​I would be "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  41.8966737438%, 42.2495307856% {
+    content: "​I would be m";
+    content: "​I would be m"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  42.2505307856%, 42.6033878273% {
+    content: "​I would be mo";
+    content: "​I would be mo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  42.6043878273%, 42.9572448691% {
+    content: "​I would be mor";
+    content: "​I would be mor"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  42.9582448691%, 43.3111019108% {
+    content: "​I would be more";
+    content: "​I would be more"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  43.3121019108%, 43.6649589526% {
+    content: "​I would be more ";
+    content: "​I would be more "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  43.6659589526%, 44.0188159943% {
+    content: "​I would be more t";
+    content: "​I would be more t"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  44.0198159943%, 44.3726730361% {
+    content: "​I would be more th";
+    content: "​I would be more th"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  44.3736730361%, 44.7265300778% {
+    content: "​I would be more tha";
+    content: "​I would be more tha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  44.7275300778%, 45.0803871196% {
+    content: "​I would be more than";
+    content: "​I would be more than"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  45.0813871196%, 45.4342441614% {
+    content: "​I would be more than ";
+    content: "​I would be more than "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  45.4352441614%, 45.7881012031% {
+    content: "​I would be more than h";
+    content: "​I would be more than h"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  45.7891012031%, 46.1419582449% {
+    content: "​I would be more than ha";
+    content: "​I would be more than ha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  46.1429582449%, 46.4958152866% {
+    content: "​I would be more than hap";
+    content: "​I would be more than hap"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  46.4968152866%, 46.8496723284% {
+    content: "​I would be more than happ";
+    content: "​I would be more than happ"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  46.8506723284%, 47.2035293701% {
+    content: "​I would be more than happy";
+    content: "​I would be more than happy"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  47.2045293701%, 47.5573864119% {
+    content: "​I would be more than happy ";
+    content: "​I would be more than happy "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  47.5583864119%, 47.9112434536% {
+    content: "​I would be more than happy t";
+    content: "​I would be more than happy t"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  47.9122434536%, 48.2651004954% {
+    content: "​I would be more than happy to";
+    content: "​I would be more than happy to"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  48.2661004954%, 48.6189575372% {
+    content: "​I would be more than happy to ";
+    content: "​I would be more than happy to "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  48.6199575372%, 48.9728145789% {
+    content: "​I would be more than happy to c";
+    content: "​I would be more than happy to c"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  48.9738145789%, 49.3266716207% {
+    content: "​I would be more than happy to co";
+    content: "​I would be more than happy to co"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  49.3276716207%, 49.6805286624% {
+    content: "​I would be more than happy to con";
+    content: "​I would be more than happy to con"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  49.6815286624%, 50.0343857042% {
+    content: "​I would be more than happy to conn";
+    content: "​I would be more than happy to conn"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  50.0353857042%, 50.3882427459% {
+    content: "​I would be more than happy to conne";
+    content: "​I would be more than happy to conne"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  50.3892427459%, 50.7420997877% {
+    content: "​I would be more than happy to connec";
+    content: "​I would be more than happy to connec"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  50.7430997877%, 51.0959568294% {
+    content: "​I would be more than happy to connect";
+    content: "​I would be more than happy to connect"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  51.0969568294%, 51.4498138712% {
+    content: "​I would be more than happy to connect ";
+    content: "​I would be more than happy to connect "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  51.4508138712%, 51.803670913% {
+    content: "​I would be more than happy to connect w";
+    content: "​I would be more than happy to connect w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  51.804670913%, 52.1575279547% {
+    content: "​I would be more than happy to connect wi";
+    content: "​I would be more than happy to connect wi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  52.1585279547%, 52.5113849965% {
+    content: "​I would be more than happy to connect wit";
+    content: "​I would be more than happy to connect wit"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  52.5123849965%, 52.8652420382% {
+    content: "​I would be more than happy to connect with";
+    content: "​I would be more than happy to connect with"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  52.8662420382%, 53.21909908% {
+    content: "​I would be more than happy to connect with ";
+    content: "​I would be more than happy to connect with "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  53.22009908%, 53.5729561217% {
+    content: "​I would be more than happy to connect with y";
+    content: "​I would be more than happy to connect with y"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  53.5739561217%, 53.9268131635% {
+    content: "​I would be more than happy to connect with yo";
+    content: "​I would be more than happy to connect with yo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  53.9278131635%, 54.2806702052% {
+    content: "​I would be more than happy to connect with you";
+    content: "​I would be more than happy to connect with you"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  54.2816702052%, 61.9947537155% {
+    content: "​I would be more than happy to connect with you!";
+    content: "​I would be more than happy to connect with you!"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  61.9957537155%, 62.2778393489% {
+    content: "​I would be more than happy to connect with you";
+    content: "​I would be more than happy to connect with you"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  62.2788393489%, 62.5609249823% {
+    content: "​I would be more than happy to connect with yo";
+    content: "​I would be more than happy to connect with yo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  62.5619249823%, 62.8440106157% {
+    content: "​I would be more than happy to connect with y";
+    content: "​I would be more than happy to connect with y"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  62.8450106157%, 63.1270962491% {
+    content: "​I would be more than happy to connect with ";
+    content: "​I would be more than happy to connect with "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  63.1280962491%, 63.4101818825% {
+    content: "​I would be more than happy to connect with";
+    content: "​I would be more than happy to connect with"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  63.4111818825%, 63.6932675159% {
+    content: "​I would be more than happy to connect wit";
+    content: "​I would be more than happy to connect wit"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  63.6942675159%, 63.9763531493% {
+    content: "​I would be more than happy to connect wi";
+    content: "​I would be more than happy to connect wi"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  63.9773531493%, 64.2594387827% {
+    content: "​I would be more than happy to connect w";
+    content: "​I would be more than happy to connect w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  64.2604387827%, 64.5425244161% {
+    content: "​I would be more than happy to connect ";
+    content: "​I would be more than happy to connect "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  64.5435244161%, 64.8256100495% {
+    content: "​I would be more than happy to connect";
+    content: "​I would be more than happy to connect"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  64.8266100495%, 65.1086956829% {
+    content: "​I would be more than happy to connec";
+    content: "​I would be more than happy to connec"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  65.1096956829%, 65.3917813163% {
+    content: "​I would be more than happy to conne";
+    content: "​I would be more than happy to conne"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  65.3927813163%, 65.6748669498% {
+    content: "​I would be more than happy to conn";
+    content: "​I would be more than happy to conn"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  65.6758669498%, 65.9579525832% {
+    content: "​I would be more than happy to con";
+    content: "​I would be more than happy to con"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  65.9589525832%, 66.2410382166% {
+    content: "​I would be more than happy to co";
+    content: "​I would be more than happy to co"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  66.2420382166%, 66.52412385% {
+    content: "​I would be more than happy to c";
+    content: "​I would be more than happy to c"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  66.52512385%, 66.8072094834% {
+    content: "​I would be more than happy to ";
+    content: "​I would be more than happy to "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  66.8082094834%, 67.0902951168% {
+    content: "​I would be more than happy to";
+    content: "​I would be more than happy to"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  67.0912951168%, 67.3733807502% {
+    content: "​I would be more than happy t";
+    content: "​I would be more than happy t"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  67.3743807502%, 67.6564663836% {
+    content: "​I would be more than happy ";
+    content: "​I would be more than happy "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  67.6574663836%, 67.939552017% {
+    content: "​I would be more than happy";
+    content: "​I would be more than happy"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  67.940552017%, 68.2226376504% {
+    content: "​I would be more than happ";
+    content: "​I would be more than happ"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  68.2236376504%, 68.5057232838% {
+    content: "​I would be more than hap";
+    content: "​I would be more than hap"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  68.5067232838%, 68.7888089172% {
+    content: "​I would be more than ha";
+    content: "​I would be more than ha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  68.7898089172%, 69.0718945506% {
+    content: "​I would be more than h";
+    content: "​I would be more than h"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  69.0728945506%, 69.354980184% {
+    content: "​I would be more than ";
+    content: "​I would be more than "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  69.355980184%, 69.6380658174% {
+    content: "​I would be more than";
+    content: "​I would be more than"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  69.6390658174%, 69.9211514508% {
+    content: "​I would be more tha";
+    content: "​I would be more tha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  69.9221514508%, 70.2042370842% {
+    content: "​I would be more th";
+    content: "​I would be more th"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  70.2052370842%, 70.4873227176% {
+    content: "​I would be more t";
+    content: "​I would be more t"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  70.4883227176%, 70.770408351% {
+    content: "​I would be more ";
+    content: "​I would be more "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  70.771408351%, 71.0534939844% {
+    content: "​I would be more";
+    content: "​I would be more"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  71.0544939844%, 71.3365796178% {
+    content: "​I would be mor";
+    content: "​I would be mor"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  71.3375796178%, 71.6196652512% {
+    content: "​I would be mo";
+    content: "​I would be mo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  71.6206652512%, 71.9027508846% {
+    content: "​I would be m";
+    content: "​I would be m"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  71.9037508846%, 72.185836518% {
+    content: "​I would be ";
+    content: "​I would be "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  72.186836518%, 72.4689221515% {
+    content: "​I would be";
+    content: "​I would be"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  72.4699221515%, 72.7520077849% {
+    content: "​I would b";
+    content: "​I would b"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  72.7530077849%, 73.0350934183% {
+    content: "​I would ";
+    content: "​I would "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  73.0360934183%, 73.3181790517% {
+    content: "​I would";
+    content: "​I would"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  73.3191790517%, 73.6012646851% {
+    content: "​I woul";
+    content: "​I woul"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  73.6022646851%, 73.8843503185% {
+    content: "​I wou";
+    content: "​I wou"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  73.8853503185%, 74.1674359519% {
+    content: "​I wo";
+    content: "​I wo"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  74.1684359519%, 74.4505215853% {
+    content: "​I w";
+    content: "​I w"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  74.4515215853%, 74.7336072187% {
+    content: "​I ";
+    content: "​I "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  74.7346072187%, 75.0166928521% {
+    content: "​I";
+    content: "​I"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  75.0176928521%, 78.5552632696% {
+    content: "​";
+    content: "​"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  78.5562632696%, 78.9091203114% {
+    content: "​H";
+    content: "​H"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  78.9101203114%, 79.2629773531% {
+    content: "​Ha";
+    content: "​Ha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  79.2639773531%, 79.6168343949% {
+    content: "​Hav";
+    content: "​Hav"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  79.6178343949%, 79.9706914367% {
+    content: "​Have";
+    content: "​Have"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  79.9716914367%, 80.3245484784% {
+    content: "​Have ";
+    content: "​Have "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  80.3255484784%, 80.6784055202% {
+    content: "​Have a";
+    content: "​Have a"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  80.6794055202%, 81.0322625619% {
+    content: "​Have a ";
+    content: "​Have a "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  81.0332625619%, 81.3861196037% {
+    content: "​Have a g";
+    content: "​Have a g"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  81.3871196037%, 81.7399766454% {
+    content: "​Have a gr";
+    content: "​Have a gr"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  81.7409766454%, 82.0938336872% {
+    content: "​Have a gre";
+    content: "​Have a gre"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  82.0948336872%, 82.4476907289% {
+    content: "​Have a grea";
+    content: "​Have a grea"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  82.4486907289%, 82.8015477707% {
+    content: "​Have a great";
+    content: "​Have a great"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  82.8025477707%, 83.1554048125% {
+    content: "​Have a great ";
+    content: "​Have a great "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  83.1564048125%, 83.5092618542% {
+    content: "​Have a great d";
+    content: "​Have a great d"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  83.5102618542%, 83.863118896% {
+    content: "​Have a great da";
+    content: "​Have a great da"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  83.864118896%, 84.2169759377% {
+    content: "​Have a great day";
+    content: "​Have a great day"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  84.2179759377%, 91.931059448% {
+    content: "​Have a great day!";
+    content: "​Have a great day!"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  91.932059448%, 92.2141450814% {
+    content: "​Have a great day";
+    content: "​Have a great day"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  92.2151450814%, 92.4972307148% {
+    content: "​Have a great da";
+    content: "​Have a great da"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  92.4982307148%, 92.7803163482% {
+    content: "​Have a great d";
+    content: "​Have a great d"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  92.7813163482%, 93.0634019816% {
+    content: "​Have a great ";
+    content: "​Have a great "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  93.0644019816%, 93.346487615% {
+    content: "​Have a great";
+    content: "​Have a great"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  93.347487615%, 93.6295732484% {
+    content: "​Have a grea";
+    content: "​Have a grea"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  93.6305732484%, 93.9126588818% {
+    content: "​Have a gre";
+    content: "​Have a gre"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  93.9136588818%, 94.1957445152% {
+    content: "​Have a gr";
+    content: "​Have a gr"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  94.1967445152%, 94.4788301486% {
+    content: "​Have a g";
+    content: "​Have a g"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  94.4798301486%, 94.761915782% {
+    content: "​Have a ";
+    content: "​Have a "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  94.762915782%, 95.0450014154% {
+    content: "​Have a";
+    content: "​Have a"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  95.0460014154%, 95.3280870488% {
+    content: "​Have ";
+    content: "​Have "/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  95.3290870488%, 95.6111726822% {
+    content: "​Have";
+    content: "​Have"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  95.6121726822%, 95.8942583156% {
+    content: "​Hav";
+    content: "​Hav"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  95.8952583156%, 96.177343949% {
+    content: "​Ha";
+    content: "​Ha"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  96.178343949%, 96.4604295824% {
+    content: "​H";
+    content: "​H"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+  96.4614295824%, 100% {
+    content: "​";
+    content: "​"/"Thank you for viewing my portfolio website!";
+    alt: "Thank you for viewing my portfolio website!";
+  }
+}
+@keyframes typed-1-caret {
+  75% {
+    border-color: transparent;
+  }
+}
+.input-wrapper-end > input:focus + .placeholder, .input-wrapper-end > input:active + .placeholder {
+  display: none;
+}
+
+/*# sourceMappingURL=type.css.map */
