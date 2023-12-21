@@ -11124,7 +11124,7 @@ section.resume-section .resume-section-content {
   text-align: center;
   line-height: 60px;
   font-size: 25px;
-  margin: 0 25px 5px 0;
+  margin: -5px 25px 0 0;
   display: block;
   border-radius: 50%;
   position: relative;
