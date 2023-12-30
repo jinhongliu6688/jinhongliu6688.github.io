@@ -2874,7 +2874,10 @@ textarea.form-control-lg {
 .btn-primary {
   --bs-btn-color: #000;
   /* --bs-btn-bg: #bd5d38; */
-  --bs-btn-bg: #fafdff;
+
+  /* --bs-btn-bg: #fafdff; */
+  --bs-btn-bg: white;
+
   /* --bs-btn-border-color: #bd5d38; */
   --bs-btn-border-color: #406FB7;
   --bs-btn-hover-color: #000;
@@ -2888,6 +2891,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #000;
   /* --bs-btn-disabled-bg: #bd5d38;
   --bs-btn-disabled-border-color: #bd5d38; */
+  margin-right: 5px;
 }
 
 .btn-secondary {
@@ -11190,3 +11194,7 @@ section.resume-section .resume-section-content {
 .ul1 .li1:nth-child(4) a:before {
   background: #dd4b39;
 }
+
+/* .project-text-intro {
+  width: 2000px;
+} */
